@@ -43,7 +43,7 @@ mod ffi {
     }
 
     pub unsafe fn errno() -> *mut i32 {
-        __errno()
+        ___errno()
     }
 }
 
