@@ -47,4 +47,4 @@ mod ffi {
     }
 }
 
-pub use ffi::errno;
+pub use std::ffi::errno;
